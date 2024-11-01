@@ -19,7 +19,7 @@ from sentence_transformers import SentenceTransformer, SentencesDataset, InputEx
 from itertools import islice
 
 if len(sys.argv) != 4:
-    print("Usage: python script_name.py <topics_1.json> <qrel_1.tsv> <answers.json>")
+    print("Usage: python train_finetuned_ce.py <topics_1.json> <qrel_1.tsv> <Answers.json>")
     sys.exit(1)
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
