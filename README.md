@@ -14,10 +14,9 @@ train_finetuned_bi.py was the only file I could not run effectively on the USM A
 - **qrel_1.tsv** - tsv file with relevance to topic_1 queries and answers
 
 ## Models
-Bi-encoders:
 - **all-MiniLM-L6-v2** 
 - **finetuned_all-MiniLM-L6-v2_epoch_10**
-Cross-encoders:
+
 - **cross-encoder/ms-marco-TinyBERT-L-2-v2** 
 - **ft_cr_2024** - Fine tuned version of the Cross-encoder above
 
