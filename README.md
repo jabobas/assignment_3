@@ -1,4 +1,4 @@
-readme_content = """
+
 # Assignment 3: Information Retrieval with Bi-Encoder and Cross-Encoder
 
 This project implements both a Bi-Encoder (using `SentenceTransformer`) and a Cross-Encoder for re-ranking top results from the Bi-Encoder, applied to information retrieval tasks. The code uses topic and answer files in JSON format, and outputs ranked results in TSV format. The project also trains and fine tunes models using the qrel file and outputs results in the 
