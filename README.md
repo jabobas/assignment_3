@@ -26,7 +26,7 @@ topic's 1 and 2.
 ``` bash
 python making_regular_results.py <topics_1.json> <topics_2.json> <Answers.json>
 ```
-making_regular_results.py - returns finetuned Bi-encoder and Cross-Encoder results files for 
+making_trained_results.py - returns finetuned Bi-encoder and Cross-Encoder results files for 
 topic's 1 and 2.
 ``` bash
 python making_trained_results.py <topics_1.json> <topics_2.json> <Answers.json>
