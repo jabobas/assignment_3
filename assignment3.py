@@ -20,7 +20,7 @@ from sentence_transformers import SentenceTransformer, SentencesDataset, InputEx
 from itertools import islice
 
 if len(sys.argv) != 4:
-    print("Usage: python script_name.py <topics_1.json> <topics_2.json> <answers.json>")
+    print("Usage: python assignment3.py <topics_1.json> <topics_2.json> <Answers.json>")
     sys.exit(1)
 
 # jimmy was here
