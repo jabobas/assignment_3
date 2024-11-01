@@ -35,7 +35,7 @@ train_finetuned_bi.py - trains the Bi-encoder model up to 50 epochs in 16 batche
 ``` bash
 python train_finetuned_bi.py <topics_1.json> <qrel_1.tsv> <Answers.json>
 ```
-train_finetuned_bi.py - trains the Cross-encoder model up to 2 epochs and saves the model
+train_finetuned_ce.py - trains the Cross-encoder model up to 2 epochs and saves the model
 ``` bash
 python train_finetuned_ce.py <topics_1.json> <qrel_1.tsv> <Answers.json>
 ```
